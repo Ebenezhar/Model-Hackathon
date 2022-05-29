@@ -1,0 +1,49 @@
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    background: url("https://c4.wallpaperflare.com/wallpaper/207/277/137/ancient-tamil-valluvar-statue-india-wallpaper-preview.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.head{
+    text-align: center;
+    place-content: center;
+    border-radius: 10px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bolder;
+
+}
+
+#inp1{
+    text-align: initial;
+    margin:10px 200px;
+}
+.container{
+    width: 800px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right top, #7ba998b3, #69b2abb8, #c7dcdec1, #43c0dfc8, #4bc2fa);
+    border: 5px solid rgb(2 207 251);
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0px 0px 20px 2px rgb(31 93 122);
+}
+#Search{
+    margin:20px 350px;
+}
+.lab1{
+    text-align: initial;
+    margin:10px 200px;
+}
+.result{
+    border-top: 5px groove rgb(15, 70, 82);
+    padding: 30px 20px;
+    color: rgb(44 54 58);
+}
+.res1{
+    padding-left: 30px;
+    margin-top: 8px;
+}
